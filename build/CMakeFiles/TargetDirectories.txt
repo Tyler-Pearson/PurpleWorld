@@ -1,0 +1,3 @@
+/home/tyler/projects/final-project-Tyler-Pearson/build/CMakeFiles/edit_cache.dir
+/home/tyler/projects/final-project-Tyler-Pearson/build/CMakeFiles/rebuild_cache.dir
+/home/tyler/projects/final-project-Tyler-Pearson/build/CMakeFiles/projf.dir
