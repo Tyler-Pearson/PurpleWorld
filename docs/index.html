@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+
+   <head>
+      <title>Purple World -- Tyler Pearson</title>
+      <meta charset="utf-8"/>
+   </head>
+
+   <style>
+      body {
+         background:#190729;
+         color:#FFFFFF;
+         margin: 5%
+      }
+      h1 {
+         color:#9400D3
+      }
+      h2 {
+         color:#9400D3
+      }
+   </style>
+
+   <h1> Purple World </h1>
+   <h3> Tyler Pearson </h3>
+
+   <body>
+      <hr>
+      <br>
+      <p align="center"> <img src="rsc/purple_world.png" width="900"> </p>
+      <p align="center">Welcome to Purple World!</p>
+
+      <br>
+      <p align="center"> Purple World is a unique world where anything is possible,
+                         immerse yourself in all its glory! </p>
+      <p align="center"> Purple World is the less-publicized sister region to
+                        Neverland, as seen in the classic documentary titled "Peter
+                        Pan". Whereas in Neverland individuals do not age, inhabitants
+                        and visitors alike of Purple World age way faster! </p>
+      <br><hr><br>
+
+      <h2> Overview </h2>
+      <p> Purple World is a procedurally generated, flat-shaded terrain. A new map is
+          rendered every build using a Perlin noise generation algorithm. The water
+          is a simple triangle mesh with random initial height offsets, each vertex
+          is shifted up and down to simulate a water-like motion. There are 3
+          viewing modes and 5 directional lighting options, one of which rotates
+          around the map. The sun always shines on Purple World, as does its moon
+          which rests in the northeastern sky. </p>
+      <br>
+
+      <h3> Directions to Purple World </h3>
+      <ul>
+         <li> An executable (named "projf") is provided in the build directory. This
+              should be executed from the build directory, as the path to the resource
+              directory is hard-coded. This also assumes the necessary libraries are
+              pre-installed on your machine </li>
+         <li> To build from scratch on linux, create your build directory in the main
+              directory, cd into it, run "cmake ..", followed by "make -j4", and your
+              projf executable will be created </li>
+         <li> For running on mac or windows, or from Visual Studio, refer to the file
+              "build-instructions.md" </li>
+         <li> Note: a bug occurs occasionally where distorted columns of color appear.
+              This is a bug, although it is unclear if this is due to a coding error
+              or due to my hardware's gpu deficiency </li>
+      </ul>
+      <br>
+
+      <h3> Navigating the Waters </h3>
+      <ul>
+         <li> WASD to move camera left-right and forward-backward </li>
+         <li> Q to move up, E to move down </li>
+         <li> Move mouse to rotate camera angle (move to desired target) </li>
+         <li> P to toggle color mode </li>
+         <li> C to toggle lighting direction </li>
+         <li> ESC to exit </li>
+      </ul>
+      <br><hr><br>
+
+      <h2> Trending Photos </h2>
+      <br>
+      <p align="center"> <img src="rsc/terrain_img1.png" width="600"> </p>
+      <p align="center"> <i> Helicopter ride around Purple World #SkyView </i> </p>
+      <br>
+      <p align="center"> <img src="rsc/terrain_img2.png" width="600"> </p>
+      <p align="center"> <i> Selfie from my hotel balcony </i> </p>
+      <br>
+      <p align="center"> <img src="rsc/terrain_img3.png" width="600"> </p>
+      <p align="center"> <i> Bayside with bae </i> </p>
+      <br>
+      <p align="center"> <img src="rsc/normal.png" width="600"> </p>
+      <p align="center"> <i> Ab-normal-ly beautiful sunset </i> </p>
+      <br>
+      <p align="center"> <img src="rsc/thumbnail.png" width="600"> </p>
+      <p align="center"> <i> #Blessed </i> </p>
+      <br><hr><br>
+
+      <h2> Experience the Magic </h2>
+      <br>
+      <p align="center"> <img src="rsc/all_features.gif" width = "800" </p>
+      <p align="center"> <i> New arrivals (dis)orientation video </i> </p>
+      <br>
+      <p align="center"> <img src="rsc/different_terrains.gif" width = "800" </p>
+      <p align="center"> <i> Rolling mountains and Shifting tides </i> </p>
+      <br>
+      <p align="center"> <img src="rsc/still_animations.gif" width = "800" </p>
+      <p align="center"> <i> Timelapse #TBT </i> </p>
+      <br><hr><br>
+
+      <h1 align="center"> <a href="https://github.com/Tyler-Pearson/PurpleWorld">
+                             Book your trip today! </a> </h1>
+      <br><hr><br>
+
+      <h2> Future Attractions </h2>
+      <ul>
+         <li> Keypress to walk through terrain generation steps </li>
+         <li> Cmd pass-in values for amplitude, interpolation, octaves and roughness </li>
+         <li> SkyBox </li>
+         <li> Water transparency </li>
+         <li> Change hard elevation breaks to soft breaks </li>
+         <li> Shading per elevation mode </li>
+         <li> Hierarchical bird companion </li>
+         <li> Moon residue particle system </li>
+         <li> Trees </li>
+      </ul>
+      <br>
+
+      <h3> Referrals </h3>
+      <ul>
+         <li> <a href="https://www.youtube.com/watch?v=qChQrNWU9Xw&t=5s">
+                Perlin noise terrain generation </a> </li>
+         <li> <a href="https://blogs.igalia.com/itoral/2016/10/13/opengl-terrain-renderer-rendering-the-terrain-mesh/">
+                Terrain mesh rendering </a> </li>
+         <li> <a href="https://www.w3schools.com/html/">
+                Website & Html</a> </li>
+         <li> <a href="https://github.com/phw/peek/releases">
+                Gifs - Peek </a> </li>
+      </ul>
+
+   </body>
+</html>
+
